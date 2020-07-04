@@ -9,6 +9,7 @@ I will assume you already eat python for breakfast to install yourself required 
 [+] SGD Classifier Accuracy: 98.2770997846%
 [+] Naive Bayes Accuracy: 98.6360373295%
 [+] SVM Linear Accuracy: 99.0667623833%
+
               precision    recall  f1-score   support
 
            0       0.99      1.00      0.99      1208
@@ -23,3 +24,9 @@ weighted avg       0.99      0.99      0.99      1393
 
 actual	ham	1205	  3
        spam	  10	175
+     
+| Left-aligned |            Predicted           |
+| :---         |     :---:      |          ---: |
+|              |      HAM       |     SPAM      |
+|    ACTUAL    |     1205       |       3       |
+|              |       10       |     175       |                             
