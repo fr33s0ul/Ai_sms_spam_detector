@@ -25,8 +25,8 @@ weighted avg       0.99      0.99      0.99      1393
 actual	ham	1205	  3
        spam	  10	175
      
-| Left-aligned |            Predicted           |
+| Left-aligned |        X       |   Predicted   |
 | :---         |     :---:      |          ---: |
-|              |      HAM       |     SPAM      |
+|      x       |      HAM       |     SPAM      |
 |    ACTUAL    |     1205       |       3       |
-|              |       10       |     175       |                             
+|      x       |       10       |     175       |                             
